@@ -42,9 +42,9 @@ def transform_text(text):
     # Convert to lowercase
     text = text.lower()
     # tokenize the text
-    text = nltk.word_tokenizer(text)
+    text = nltk.word_tokenize(text)
     # remove the non-alphanumeric tokens
-    text = [word for word in text if word.islnum()]
+    text = [word for word in text if word.isalnum()]
     # remove the stopwords and punctuation
     text = [word for word in text if word not in stopwords.words('english') and word not in string.punctuation]
     # stem the words
