@@ -1,0 +1,3 @@
+2025-11-03 10:35:18,421 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/tanveer-12/End-to-End-ML-Pipeline/refs/heads/main/experiments/spam.csv
+2025-11-03 10:35:18,430 - data_ingestion - DEBUG - Data preprocessing completed
+2025-11-03 10:35:18,444 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
