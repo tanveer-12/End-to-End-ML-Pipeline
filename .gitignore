@@ -1,9 +1,8 @@
 .vscode/
-data
-models
-reports
+data/
+models/
+reports/
 logs/
-logs/model_evaluation.log
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
